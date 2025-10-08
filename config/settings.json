@@ -1,0 +1,56 @@
+{
+  "symbols": "PLUG,SOFI,FCEL,NKLA,SIRI",
+  "timeframe": "1m",
+  "lunch_skip": false,
+  "risk_percent": 5.0,
+  "stop_loss_percent": 2.0,
+  "take_profit_percent": 2.5,
+  "selected_strategy": "GapAndGo",
+  "force_mode": "auto",
+  "extra_strategy_paths": [],
+  "backtest_start_date": "2023-10-08T00:15:16.727710",
+  "backtest_end_date": "2025-10-07T00:15:16.727710",
+  "backtest_source": "alpaca",
+  "data_feed": "IEX",
+  "strategy_slots": [
+    {
+      "enabled": true,
+      "name": "GapAndGo",
+      "priority": 1,
+      "start_hhmm": "8:30",
+      "end_hhmm": "16:00",
+      "timeframe": "1m",
+      "lunch_skip": false,
+      "use_global": false,
+      "risk_percent": 5.0,
+      "sl_percent": 2.0,
+      "tp_percent": 2.5
+    },
+    {
+      "enabled": false,
+      "name": "ORB",
+      "priority": 1,
+      "start_hhmm": "09:30",
+      "end_hhmm": "16:00",
+      "timeframe": "5m",
+      "lunch_skip": false,
+      "use_global": false,
+      "risk_percent": 7.0,
+      "sl_percent": 0.5,
+      "tp_percent": 1.0
+    },
+    {
+      "enabled": false,
+      "name": "BaselineSMA",
+      "priority": 1,
+      "start_hhmm": "09:30",
+      "end_hhmm": "16:00",
+      "timeframe": "1m",
+      "lunch_skip": false,
+      "use_global": false,
+      "risk_percent": 1.0,
+      "sl_percent": 1.0,
+      "tp_percent": 2.0
+    }
+  ]
+}

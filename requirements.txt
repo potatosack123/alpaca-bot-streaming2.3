@@ -1,0 +1,12 @@
+# Requirements for Python 3.12 on Windows (IEX-only; no alpaca-trade-api)
+customtkinter==5.2.2
+matplotlib==3.8.4
+pandas==2.2.2
+numpy==1.26.4
+pytz==2024.1
+keyring==24.3.1
+alpaca-py==0.42.2
+typing_extensions==4.12.2
+tkcalendar==1.6.1
+
+yfinance==0.2.44
